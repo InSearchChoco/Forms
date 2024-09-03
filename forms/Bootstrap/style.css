@@ -1,10 +1,23 @@
 body{
   padding: 25px 0;
 }
+a{
+  /* color: inherit; */
+  text-decoration: none;
+}
 ul{
   text-decoration: none;
   list-style: none;
+  padding: 0;
 }
 .textarea{
   width: 100%;
+}
+.ul{
+  input, button{
+    width: 100%;
+  }
+}
+.text-left{
+  text-align: left;
 }
