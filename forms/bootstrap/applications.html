@@ -44,7 +44,22 @@
           <p><span>Дата:</span> 11.11.2025</p>
           <p><span>Адрес:</span> Просп. Ленина 125</p>
           <p><span>Комментарий:</span> СРОЧНО!!!</p>
-          <button type="button" class="btn position-absolute bottom-0 end-0 m-3 btn-primary">Взять в работу</button>
+          <button type="button" class="btn w-100 btn-primary" data-bs-toggle="modal" data-bs-target="#warning">Взять в работу</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="warning" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content position-relative">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body">
+          <p>Вы уверены?</p>
+          <div class="row justify-content-evenly">
+          <button type="button" class="btn col-5 btn-warning">Подтвердить</button>
+          <button type="button" class="btn col-5 btn-secondary">Отменить</button>
+          </div>
         </div>
       </div>
     </div>
