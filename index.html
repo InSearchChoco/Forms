@@ -20,13 +20,12 @@
   </section>
   <section class="container">
     <pre id="usercard">
-      
       <script>
         let tg = window.Telegram.WebApp;
         let usercard = document.getElementById("usercard");
         let profName = document.createElement('p'); //создаем параграф
-   profName.innerText = `${tg.initDataUnsafe.user.first_name}
-   ${tg.initDataUnsafe.user.last_name}
+   profName.innerText = `${tg.initDataUnsafe}
+   ${tg.initDataUnsafe.user}
    ${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
    usercard.appendChild(profName);
       </script>
