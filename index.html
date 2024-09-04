@@ -19,6 +19,13 @@
   </section>
   <section class="container">
     <pre id="usercard">
+      <?php 
+        if(isset($_POST)){
+          print_r($_POST);
+        }else{
+          print_r($_GET);
+        }
+      ?>
       <script>
         let tg = window.Telegram.WebApp;
         let usercard = document.getElementById("usercard");
