@@ -26,9 +26,7 @@
         let usercard = document.getElementById("usercard");
         let profName = document.createElement('pre'); //создаем параграф
         let data = JSON.stringify(tg.initDataUnsafe); //переводим в строку
-   profName.innerText = `${data}
-   ${tg.initDataUnsafe.user}
-   ${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
+   profName.innerText = `${data}`;
    usercard.appendChild(profName);
       </script>
     </pre>
