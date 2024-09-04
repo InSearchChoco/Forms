@@ -15,11 +15,13 @@
     <ul class="card py-3">
     <li><a href="./forms/bootstrap/index.html">Оставить заявку</a></li>
     <li><a href="./forms/bootstrap/applications.html">Приложение</a></li>
+    <li><a href="./user.php">Информация</a></li>
     </ul>
   </section>
   <section class="container">
     <pre id="usercard">
       <?php 
+      echo "Hello";
         if(isset($_POST)){
           print_r($_POST);
         }else{
